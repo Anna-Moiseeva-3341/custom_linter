@@ -1,0 +1,6 @@
+version: v2.11.3
+
+plugins:
+  - module: 'github.com/Anna-Moiseeva-3341/custom_linter'
+    import: 'github.com/Anna-Moiseeva-3341/custom_linter/plugin'
+    path: .

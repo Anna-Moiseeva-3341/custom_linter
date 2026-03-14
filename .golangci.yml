@@ -1,0 +1,20 @@
+version: "2"
+
+linters: 
+  enable: 
+    - customloglint 
+  settings: 
+    custom: 
+      customloglint: 
+        type: "module"
+        description: "checks log messages"
+        settings:
+          forbidden_words: ["password", "token", "secret"]
+          forbidden_symbols: ["!", "?", ";"]
+          forbidden_patterns: ["..."]
+          enabled_checks:
+            lowercase: true
+            language: true
+            emoji: true 
+            symbols: true
+            sensitive: true
