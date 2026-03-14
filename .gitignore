@@ -3,3 +3,4 @@
 *.so
 *.exe
 custom-gcl
+loglint
