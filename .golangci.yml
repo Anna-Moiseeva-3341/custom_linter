@@ -6,7 +6,6 @@ linters:
   settings: 
     custom: 
       customloglint: 
-        path: ./cmd/plugin/plugin.go
         type: "module"
         description: "checks log messages"
         settings:
