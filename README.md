@@ -28,7 +28,7 @@ cd custom_linter
 ```
 golangci-lint custom
 ```
-- Запустить проверку необходимого проекта: 
+- Запустить проверку текущего проекта: 
 ```
 ./custom-gcl run ./...
 ```
@@ -127,5 +127,4 @@ ann@annpc:~/GoFiles/my_linter_project$ go run ./cmd/loglint/ ./...
 /home/ann/GoFiles/my_linter_project/test_run.go:11:13: log messages must not contain special symbols
 /home/ann/GoFiles/my_linter_project/test_run.go:12:12: log messages must not contain emoji
 exit status 3
-ann@annpc:~/GoFiles/my_linter_project$ 
 ```
